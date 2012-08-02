@@ -93,7 +93,7 @@ class BaseTest extends \PHPUnit_Framework_TestCase
 
 		$errors = array(
 			'users.1.username' => 'atLeastChars',
-			'users.3.username' => 'nonEmpty',
+			'users.3.username' => 'require',
 			'users.2.password' => 'atLeastChars',
 		);
 
