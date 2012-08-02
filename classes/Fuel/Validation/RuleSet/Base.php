@@ -46,7 +46,7 @@ class Base
 	{
 		if ($this->_empty($v->get()))
 		{
-			$v->setError('nonEmpty');
+			$v->setError('require');
 			return false;
 		}
 
