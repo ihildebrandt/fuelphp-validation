@@ -224,7 +224,7 @@ class Base
 
 		if ((function_exists('mb_strlen') ? mb_strlen($v->get()) : strlen($v->get())) != $length)
 		{
-			$v->setError('atExactChars');
+			$v->setError('exactChars');
 			return false;
 		}
 
